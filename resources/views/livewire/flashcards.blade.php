@@ -22,7 +22,7 @@
         </div>
 
         <!-- Flashcard Display -->
-        <div class="mb-4 p-6 border border-gray-300 rounded-lg bg-white relative min-w-96 min-h-96 flex items-center justify-center">
+        <div class="mb-4 p-6 border border-gray-300 rounded-lg bg-white relative lg:min-w-96 min-h-96 sm:w-full flex items-center justify-center">
             @php
                 $currentFlashcard = array_filter($flashcards, function($flashcard) use ($currentFlashcardId) {
                     return $flashcard['id'] == $currentFlashcardId;

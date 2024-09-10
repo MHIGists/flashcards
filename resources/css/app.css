@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.bubblegum-sans-regular {
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+}
+
