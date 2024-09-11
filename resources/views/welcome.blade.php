@@ -5,12 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{{config('app.name', 'YourFlashCards')}}</title>
-
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-
         <!-- Styles -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
@@ -40,13 +38,12 @@
                                 Whether you're preparing for an exam or learning something new, our flashcards will help you stay organized and focused. We're always working to improve your experience, so stay tuned for more updates!
                             </p>
                             <div class="flex justify-center">
-                                <button class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-indigo-600 transition-all">
+                                <a href="{{route('register')}}" class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-indigo-600 transition-all">
                                     Get Started
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </main>
-
                 </div>
             </div>
         </div>

@@ -35,10 +35,10 @@
                     <div class="relative w-full h-full perspective-1000">
                         <div class="transition-all ease-in-out duration-600">
                             <div id="question" class="w-full h-full flex items-center justify-center bg-white text-black cursor-pointer">
-                                <div class="text-2xl font-bold text-center">{{ $currentFlashcard['question'] }}</div>
+                                <div class="text-2xl text-center select-none">{{ $currentFlashcard['question'] }}</div>
                             </div>
                             <div id="answer" class="w-full h-full flex items-center justify-center bg-gray-100 text-black absolute top-0 left-0 hidden">
-                                <div class="text-2xl font-bold text-center">{{ $currentFlashcard['answer'] }}</div>
+                                <div class="text-2xl text-center select-none">{{ $currentFlashcard['answer'] }}</div>
                             </div>
                         </div>
                     </div>
