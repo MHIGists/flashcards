@@ -4,8 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta name="description" content="Discover free flashcards for self-study or teaching kids. Access various flashcard groups for easy learning. Everything is available free of charge!">
+        <meta name="keywords" content="flashcards, study, teach, learning, groups, free, progress, organize, prepare, user, subjects, topics, focused, exam, manage, private, multiple, register, welcome, start, improve, stay updated">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+
+        <title>{{ config('app.name', 'Your Flash Cards') }}</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
