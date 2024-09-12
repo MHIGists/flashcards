@@ -1,10 +1,13 @@
+@import '@fontsource/bubblegum-sans';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Defaults to regular 400 */
 
 .bubblegum-sans-regular {
     font-family: "Bubblegum Sans", sans-serif;
-    font-weight: 50;
+    font-weight: 400;
     font-style: normal;
 }
 
