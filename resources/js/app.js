@@ -1,12 +1,12 @@
 import './bootstrap';
 
 document.addEventListener('DOMContentLoaded', function (){
+    let flashcardBox = document.getElementById('flashcardBox');
     let answer = document.getElementById('answer');
-    let question = document.getElementById('question');
-    answer.addEventListener('click', () => {
+    flashcardBox.addEventListener('click', () => {
         answer.classList.toggle('hidden');
-    });
-    question.addEventListener('click', () => {
-        answer.classList.toggle('hidden');
-    });
+    })
+    flashcardBox.addEventListener('mouseover', () => {
+        
+    })
 })
