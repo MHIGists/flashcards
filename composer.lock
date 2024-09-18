@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db33e69ade1b5f700cd4087ca488fac7",
+    "content-hash": "554a5a671aa658c3cba481127d8373bc",
     "packages": [
         {
             "name": "brick/math",
@@ -2166,6 +2166,80 @@
                 "source": "https://github.com/livewire/volt"
             },
             "time": "2024-05-31T19:07:20+00:00"
+        },
+        {
+            "name": "maize-tech/laravel-legal-consent",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maize-tech/laravel-legal-consent.git",
+                "reference": "dc5c1e62d2bdbe5d3072fd6478e617af59a39472"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maize-tech/laravel-legal-consent/zipball/dc5c1e62d2bdbe5d3072fd6478e617af59a39472",
+                "reference": "dc5c1e62d2bdbe5d3072fd6478e617af59a39472",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/database": "^9.0|^10.0|^11.0",
+                "illuminate/http": "^9.0|^10.0|^11.0",
+                "illuminate/routing": "^9.0|^10.0|^11.0",
+                "illuminate/support": "^9.0|^10.0|^11.0",
+                "php": "^8.0",
+                "spatie/laravel-package-tools": "^1.14.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.4",
+                "orchestra/testbench": "^7.0|^8.0|^9.0",
+                "phpunit/phpunit": "^9.5|^10.5",
+                "vimeo/psalm": "^4.20|^5.22"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Maize\\LegalConsent\\LegalConsentServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Maize\\LegalConsent\\": "src",
+                    "Maize\\LegalConsent\\Database\\Factories\\": "database/factories"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enrico De Lazzari",
+                    "email": "enrico.delazzari@maize.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Legal Consent",
+            "homepage": "https://github.com/maize-tech/laravel-legal-consent",
+            "keywords": [
+                "consent",
+                "laravel",
+                "legal",
+                "maize-tech"
+            ],
+            "support": {
+                "issues": "https://github.com/maize-tech/laravel-legal-consent/issues",
+                "source": "https://github.com/maize-tech/laravel-legal-consent/tree/3.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/maize-tech",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-03-27T13:38:15+00:00"
         },
         {
             "name": "monolog/monolog",
