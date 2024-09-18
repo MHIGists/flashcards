@@ -6,9 +6,13 @@
         <link rel="canonical" href="{{url()->current()}}" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta name="description" content="Discover free flashcards for self-study or teaching kids. Access various flashcard groups for easy learning. Everything is available free of charge!">
-        <meta name="keywords" content="flashcards, study, teach, learning, groups, free, progress, organize, prepare, user, subjects, topics, focused, exam, manage, private, multiple, register, welcome, start, improve, stay updated">
-
+        @if(url()->current() == route('login'))
+            <meta name="description" content="Log in to Your Flash Cards to access and manage your flashcards. Continue creating, organizing, and studying personalized flashcard groups. Secure and easy login to track progress and enhance learning.">
+            <meta name="keywords" content="login to flashcards, flashcard account, access flashcards, manage flashcard sets, study tools login, personalized flashcards, educational login, online study tools, login flashcard platform, track learning progress, study groups">
+        @else
+            <meta name="description" content="Sign up for free at Your Flash Cards! Create personalized flashcards for self-study or teaching. Group your flashcards by subject, track your progress, and access them anywhere. Easy and secure registration.">
+            <meta name="keywords" content="register for flashcards, create account flashcards, free sign up, create flashcard sets, online study tools, flashcard platform registration, personalized study tools, track learning progress, flashcard groups, flashcards for teaching, flashcards for kids">
+        @endif
         <title>{{ config('app.name', 'Your Flash Cards') }}</title>
 
         <!-- Scripts -->

@@ -6,8 +6,8 @@
         <link rel="canonical" href="{{url()->current()}}" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta name="description" content="Discover free flashcards for self-study or teaching kids. Create flashcard groups for easy management. Everything is available free of charge!">
-        <meta name="keywords" content="your ,flashcards, flash, cards, study, teach, learning, groups, free, progress, organize, prepare, user, subjects, topics, focused, exam, manage, private, multiple, register, welcome, start, improve, stay updated">
+        <meta name="description" content="Explore Your Flash Cards, the free platform for creating and organizing flashcards. Perfect for self-study or teaching kids. Customize flashcard groups, track progress, and access private or public sets with ease. Always free to use!">
+        <meta name="keywords" content="free flashcards, study tools, teaching resources, create flashcards, organize subjects, learning flashcards, kids education, exam prep, self-study, flashcard groups, private flashcards, online learning, educational tools, flashcard sets, flashcard platform, free study aid">
 
         <title>{{config('app.name', 'Your Flash Cards')}}</title>
 
