@@ -14,7 +14,6 @@
     <body class="bubblegum-sans-regular antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-black">
             <livewire:layout.navigation />
-
             <!-- Page Heading -->
             @if (isset($header))
                 <header class="bg-white dark:bg-black shadow">

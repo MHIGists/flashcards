@@ -1,6 +1,7 @@
 import './bootstrap';
 
-document.addEventListener('DOMContentLoaded', function (){
+
+window.flashcardEvent = function (){
     let flashcardBox = document.getElementById('flashcardBox');
     let answer = document.getElementById('answer');
     if (flashcardBox && answer){
@@ -11,4 +12,4 @@ document.addEventListener('DOMContentLoaded', function (){
 
         })
     }
-})
+}

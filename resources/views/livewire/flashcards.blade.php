@@ -54,6 +54,7 @@
                 </div>
             @endif
         </div>
+        <script>window.flashcardEvent()</script>
     @else
         <div class="text-center">No flashcards or group selected!</div>
     @endif
