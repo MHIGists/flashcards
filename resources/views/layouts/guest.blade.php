@@ -18,15 +18,15 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="bubblegum-sans-regular text-gray-900 antialiased">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-black">
+    <body class="bubblegum-sans-regular text-textColor antialiased">
+        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-mainBG dark:bg-dMainBG">
             <div>
                 <a href="/" wire:navigate>
-                    <x-application-logo class="lg:w-80 lg:h-80 w-40 h-40 fill-current text-gray-500" />
+                    <x-application-logo class="lg:w-80 lg:h-80 w-40 h-40 fill-current text-textColor" />
                 </a>
             </div>
 
-            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white dark:bg-indigo-800 shadow-md overflow-hidden sm:rounded-lg">
+            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-mainBG dark:bg-dMainBG shadow-md overflow-hidden sm:rounded-lg">
                 {{ $slot }}
             </div>
         </div>

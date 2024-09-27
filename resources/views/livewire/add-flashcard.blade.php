@@ -1,4 +1,4 @@
-<div class="bg-white p-6 rounded-lg shadow-md dark:bg-indigo-600 border border-white">
+<div class="bg-mainBG p-6 rounded-lg shadow-md dark:bg-secondary border border-white">
     <form wire:submit.prevent="addFlashcard">
         <!-- Question Input -->
         <div class="mb-4">
@@ -36,7 +36,7 @@
 
         <!-- Submit Button -->
         <div class="flex items-center justify-end">
-            <button type="submit" class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-indigo-600 transition-all dark:bg-indigo-500 dark:text-black">Add Flashcard</button>
+            <button type="submit" class="bg-primary text-white font-semibold py-2 px-4 rounded-lg hover:bg-secondary transition-all dark:bg-primary dark:text-black">Add Flashcard</button>
         </div>
     </form>
 

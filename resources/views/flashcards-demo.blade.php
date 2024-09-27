@@ -1,22 +1,22 @@
 <div class="flex justify-between items-center mb-4">
     <button
-            class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-indigo-600 transition-all dark:bg-indigo-500 dark:text-black">
+            class="bg-primary text-white font-semibold py-2 px-4 rounded-lg hover:bg-secondary transition-all dark:bg-primary dark:text-black">
         <Previous></Previous>
     </button>
     <button
-            class="bg-indigo-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-indigo-600 transition-all dark:bg-indigo-500 dark:text-black">
+            class="bg-primary text-white font-semibold py-2 px-4 rounded-lg hover:bg-secondary transition-all dark:bg-primary dark:text-black">
         Next
     </button>
 </div>
 
 <div id="flashcardDemoBox"
-     class="w-full h-full mb-4 p-6 border border-gray-300 rounded-lg bg-white relative lg:min-w-96 min-h-96 sm:w-full flex items-center justify-center dark:bg-indigo-600 cursor-pointer">
+     class="w-full h-full mb-4 p-6 border border-gray-300 rounded-lg bg-mainBG relative lg:min-w-96 min-h-96 sm:w-full flex items-center justify-center dark:bg-secondary cursor-pointer">
 
         <div class="relative w-full h-full flex items-center justify-center">
             <div class="relative w-full h-full perspective-1000">
                 <div class="w-full h-full transition-all ease-in-out duration-600">
                     <div id="question"
-                         class="w-full h-full flex items-center justify-center bg-white text-black cursor-pointer dark:bg-indigo-600 dark:text-black">
+                         class="w-full h-full flex items-center justify-center bg-mainBG text-black cursor-pointer dark:bg-secondary dark:text-black">
                         <div
                             class="w-full h-full text-2xl text-center break-words select-none">{{ $currentFlashcard['question'] }}</div>
                     </div>
